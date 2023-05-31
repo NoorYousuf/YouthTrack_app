@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroun1"
+    tools:context=".AdviceActivity2">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Are you looking for a way to achieve success and excel in your life? There are a number of general tips that can help you achieve your goals and develop yourself."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="1. Establish goals. Establish clear, defined goals and work diligently to attain them."
+        android:textColor="@color/black"
+        android:layout_marginTop="110dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="2. Constant learning: Invest in your own development by attending classes regularly, learning new things, and broadening your horizons."
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="3.Take good care of your health by eating wholesome meals, working out frequently, and leading a healthy lifestyle."
+        android:textColor="@color/black"
+        android:layout_marginTop="205dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="4. Show others respect and acknowledge their individuality and distinctions."
+        android:textColor="@color/black"
+        android:layout_marginTop="260dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="5. Interact with others: Make close connections with people by exchanging messages and creating social networks."
+        android:textColor="@color/black"
+        android:layout_marginTop="300dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="6. Have fun: Find a balance between your personal and professional lives, and take part in the things you want to do."
+        android:textColor="@color/black"
+        android:layout_marginTop="355dp"
+        android:textSize="16sp" />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/Button_advice"
+        android:text="Back"
+        android:textSize="18sp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/blue_200"
+        android:textColor="@color/yellow"/>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroun1"
+    tools:context=".CreativeThinkingSkillssActivity2">
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="You need creative thinking skills, and here are some tips to enhance and develop your creative thinking abilities:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="19dp"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="1. Embrace curiosity: by looking up facts and asking questions. Since curiosity is the primary motivator of creativity, it is crucial to promote awe and discovery."
+        android:textColor="@color/black"
+        android:layout_marginTop="110dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="2. Improve your ability to solve difficulties: by attempting to come up with fresh options. By tackling problems and puzzles, you can improve your problem-solving abilities."
+        android:textColor="@color/black"
+        android:layout_marginTop="180dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="3. Get creative: Whether it's writing, performing music, or drawing, getting creative can help you improve your creative thinking abilities."
+        android:textColor="@color/black"
+        android:layout_marginTop="250dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="4. Work together with others: The creative process involves a lot of collaboration. through collaborating with others, exchanging ideas, and using one another's talents."
+        android:textColor="@color/black"
+        android:layout_marginTop="320dp"
+        android:textSize="16sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="In the end, developing your creative thinking skills requires hard work and continued practice and application."
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="400dp"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:id="@+id/Button_thinking"
+        android:text="Back"
+        android:textSize="18sp"
+        android:layout_marginTop="450dp"
+        android:backgroundTint="@color/blue_200"
+        android:textColor="@color/yellow"/>
+</RelativeLayout>
